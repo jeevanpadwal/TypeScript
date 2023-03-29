@@ -3,15 +3,14 @@
 function ChkString(str: string, word: string): boolean
  {
    
-    
     return str.indexOf(word) != -1;
 }
   
 
-const sentence = 'Pune kothrud Marvellous Infosystems';
-const wordToFind = 'Marvellous';
+var sentence = 'Pune kothrud Marvellous Infosystems';
+var wordToFind = 'Marvellous';
 
-const isFound = ChkString(sentence, wordToFind);
+var isFound = ChkString(sentence, wordToFind);
 
 if (isFound)
 {
